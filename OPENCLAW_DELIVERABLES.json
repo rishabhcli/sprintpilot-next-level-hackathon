@@ -1,23 +1,28 @@
 {
-  "status": "ready_for_qa",
-  "repoUrl": "",
-  "demoUrl": "",
-  "screenshots": [],
+  "status": "devpost_draft_blocked_on_supported_video_host",
+  "repoUrl": "https://github.com/rishabhcli/sprintpilot-next-level-hackathon",
+  "demoUrl": "https://raw.githack.com/rishabhcli/sprintpilot-next-level-hackathon/main/docs/index.html",
+  "screenshots": [
+    "artifacts/screenshots/sprintpilot-thumbnail.jpg",
+    "artifacts/screenshots/sprintpilot-board.jpg"
+  ],
   "verification": {
     "install": "passed",
     "test": "passed",
     "build": "passed",
-    "smoke": "passed via static verify checks; interactive local port binding is blocked inside this sandbox"
+    "smoke": "passed in the live OpenClaw browser against http://127.0.0.1:4173 and artifact screenshots were captured"
   },
   "submission": {
-    "storyReady": false,
-    "answersReady": false,
-    "draftFilled": false,
+    "storyReady": true,
+    "answersReady": true,
+    "draftFilled": true,
     "submitted": false
   },
   "notes": [
     "SprintPilot is implemented as a local-first static web app under app/ with deployable output in docs/.",
-    "README, verification notes, and project scripts are in place.",
-    "Screenshots, public repo URL, and Devpost submission fields remain untouched by request."
+    "The live Devpost draft exists at submission id 966121 for Next Level Hackathon.",
+    "The repo is public and pushed to GitHub.",
+    "Project details are blocked only by Devpost requiring a valid YouTube, Facebook Video, Vimeo, or Youku URL for the demo video field.",
+    "The managed browser's current Google account is school-restricted and cannot upload to YouTube, and Vimeo is not authenticated in this browser profile."
   ]
 }

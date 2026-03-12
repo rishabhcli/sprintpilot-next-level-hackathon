@@ -12,12 +12,12 @@
     "LocalStorage"
   ],
   "repoUrl": "https://github.com/rishabhcli/sprintpilot-next-level-hackathon",
-  "demoUrl": "https://rishabhb.me/sprintpilot-next-level-hackathon/demo/sprintpilot-demo.mp4",
-  "tryItOutUrl": "https://rishabhb.me/sprintpilot-next-level-hackathon/",
+  "demoUrl": "https://raw.githack.com/rishabhcli/sprintpilot-next-level-hackathon/main/docs/demo/sprintpilot-demo.mp4",
+  "tryItOutUrl": "https://raw.githack.com/rishabhcli/sprintpilot-next-level-hackathon/main/docs/index.html",
   "customAnswers": {
     "Project Description": "SprintPilot is a local-first productivity app that turns rough notes, launch goals, and team chaos into a structured weekly sprint with urgency-impact scoring, a kanban board, and an exportable sprint brief.",
-    "Demo Video": "https://rishabhb.me/sprintpilot-next-level-hackathon/demo/sprintpilot-demo.mp4",
-    "Working Prototype": "https://rishabhb.me/sprintpilot-next-level-hackathon/",
+    "Demo Video": "https://raw.githack.com/rishabhcli/sprintpilot-next-level-hackathon/main/docs/demo/sprintpilot-demo.mp4",
+    "Working Prototype": "https://raw.githack.com/rishabhcli/sprintpilot-next-level-hackathon/main/docs/index.html",
     "Code Repository": "https://github.com/rishabhcli/sprintpilot-next-level-hackathon",
     "Presentation or Documentation": "https://github.com/rishabhcli/sprintpilot-next-level-hackathon#readme",
     "Team Members": "Rishabh Bansal"
