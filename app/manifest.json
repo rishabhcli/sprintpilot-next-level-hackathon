@@ -1,0 +1,15 @@
+{
+  "name": "SprintPilot",
+  "short_name": "SprintPilot",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f7f3e8",
+  "theme_color": "#17435d",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

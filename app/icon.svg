@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="SprintPilot">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#17435d" />
+      <stop offset="100%" stop-color="#f25f4c" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg)" />
+  <path d="M34 74c20-4 32-16 39-34 1-4 7-3 8 1l5 18 18 6c4 1 4 7 0 8-30 9-44 20-48 39-1 4-7 4-8 0l-5-18-18-5c-4-1-4-7 0-8 4-1 7-4 9-7z" fill="#fff7e8" />
+</svg>

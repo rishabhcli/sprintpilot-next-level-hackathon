@@ -1,0 +1,22 @@
+{
+  "requiredChecks": [
+    "repository initialized",
+    "app builds successfully",
+    "tests pass",
+    "local smoke test passes",
+    "README updated",
+    "public GitHub repo created",
+    "Devpost answers prepared",
+    "at least 2 screenshots captured"
+  ],
+  "commands": {
+    "install": "npm install",
+    "test": "npm test",
+    "build": "npm run build",
+    "start": "npm run dev"
+  },
+  "artifacts": {
+    "screenshotsMin": 2,
+    "demoVideoRequired": false
+  }
+}

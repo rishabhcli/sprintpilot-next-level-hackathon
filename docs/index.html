@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#17435d">
+    <meta
+      name="description"
+      content="SprintPilot turns rough goals and meeting notes into a focused weekly sprint plan."
+    >
+    <link rel="manifest" href="./manifest.json">
+    <link rel="icon" href="./icon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles.css">
+    <title>SprintPilot</title>
+  </head>
+  <body>
+    <div class="page-glow page-glow-left"></div>
+    <div class="page-glow page-glow-right"></div>
+
+    <main class="app-shell">
+      <section class="hero panel">
+        <div class="hero-copy">
+          <p class="eyebrow">Local-first sprint planning for fast-moving teams</p>
+          <h1>SprintPilot</h1>
+          <p class="hero-text">
+            Turn scattered goals, meeting notes, and product chaos into a prioritized weekly sprint with
+            urgency and impact scoring, a live task board, and a clean brief you can ship to the team.
+          </p>
+          <div class="hero-actions">
+            <button class="primary-button" id="generateButton" type="button">Generate sprint plan</button>
+            <button class="secondary-button" id="demoButton" type="button">Load demo workspace</button>
+          </div>
+        </div>
+
+        <div class="hero-stats" id="statsGrid" aria-label="Sprint metrics"></div>
+      </section>
+
+      <section class="workspace-grid">
+        <section class="panel composer-panel">
+          <div class="section-heading">
+            <div>
+              <p class="kicker">Sprint intake</p>
+              <h2>Messy notes in, structured week out</h2>
+            </div>
+            <button class="ghost-button" id="resetButton" type="button">Reset</button>
+          </div>
+
+          <div class="meta-grid">
+            <label class="field">
+              <span>Workspace</span>
+              <input id="workspaceName" type="text" maxlength="60">
+            </label>
+
+            <label class="field">
+              <span>Sprint objective</span>
+              <input id="objectiveInput" type="text" maxlength="120">
+            </label>
+          </div>
+
+          <label class="field">
+            <span>Goals, notes, or problem statements</span>
+            <textarea
+              id="sourceInput"
+              rows="12"
+              spellcheck="true"
+              placeholder="Paste standup notes, launch goals, blockers, or rough ideas here."
+            ></textarea>
+          </label>
+
+          <div class="composer-footer">
+            <p class="helper-text">
+              SprintPilot extracts action items, scores urgency and impact, then maps the work to a staged board
+              and a weekly roadmap. Everything persists in your browser.
+            </p>
+            <p class="status-line" id="statusLine"></p>
+          </div>
+        </section>
+
+        <aside class="panel summary-panel">
+          <div class="section-heading">
+            <div>
+              <p class="kicker">Planning pulse</p>
+              <h2>What deserves attention this week</h2>
+            </div>
+          </div>
+
+          <div class="insight-stack" id="insightCards"></div>
+
+          <div class="brief-panel">
+            <div class="brief-header">
+              <div>
+                <p class="kicker">Export</p>
+                <h3>Copyable sprint brief</h3>
+              </div>
+              <div class="brief-actions">
+                <button class="ghost-button" id="copyBriefButton" type="button">Copy</button>
+                <button class="secondary-button" id="downloadBriefButton" type="button">Download</button>
+              </div>
+            </div>
+            <textarea id="briefPreview" rows="16" readonly aria-label="Sprint brief preview"></textarea>
+          </div>
+        </aside>
+      </section>
+
+      <section class="board-grid">
+        <section class="panel board-panel">
+          <div class="section-heading">
+            <div>
+              <p class="kicker">Execution board</p>
+              <h2>Drag tasks across the sprint</h2>
+            </div>
+            <p class="helper-text">Use drag and drop on desktop or the stage picker on each card anywhere.</p>
+          </div>
+
+          <div class="board-columns" id="boardColumns" aria-label="Kanban board"></div>
+        </section>
+
+        <section class="panel roadmap-panel">
+          <div class="section-heading">
+            <div>
+              <p class="kicker">Weekly roadmap</p>
+              <h2>How the work lands across the week</h2>
+            </div>
+          </div>
+
+          <div class="roadmap-grid" id="roadmapGrid" aria-label="Weekly sprint roadmap"></div>
+        </section>
+      </section>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

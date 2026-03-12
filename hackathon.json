@@ -1,0 +1,57 @@
+{
+  "slug": "nextlevelhackathon",
+  "title": "Next Level Hackathon",
+  "source": {
+    "platform": "devpost",
+    "url": "https://nextlevelhackathon.devpost.com/",
+    "discoveredAt": "2026-03-12T05:49:35.556Z"
+  },
+  "timeline": {
+    "deadlineAt": "2026-03-22T14:00:00-07:00",
+    "timezone": "America/Los_Angeles",
+    "submissionWindowNotes": "Devpost schedule lists submissions from March 10 at 5:30 AM PDT to March 22 at 2:00 PM PDT."
+  },
+  "tracks": [],
+  "judgingCriteria": [
+    "Innovation & Creativity – 25%",
+    "Technical Implementation – 25%",
+    "Impact & Usefulness – 20%",
+    "Presentation & Demo – 15%",
+    "Completeness – Bonus Consideration"
+  ],
+  "requiredAssets": {
+    "repoPublic": true,
+    "screenshots": true,
+    "demoVideo": true,
+    "tryItOutUrl": false,
+    "customQuestions": [
+      "Project Description",
+      "Demo Video",
+      "Working Prototype",
+      "Code Repository",
+      "Presentation or Documentation",
+      "Team Members"
+    ]
+  },
+  "rules": {
+    "allowedPriorWork": "Projects should be built during the hackathon period.",
+    "teamSize": "",
+    "aiUsage": "",
+    "specialConstraints": [
+      "Submit a functional prototype, application, or technical implementation.",
+      "Include a short demo video of about 2–3 minutes.",
+      "Ensure all team members are listed correctly on the Devpost submission page."
+    ]
+  },
+  "submission": {
+    "devpostDraftUrl": "",
+    "repoName": "nextlevelhackathon",
+    "repoUrl": "",
+    "status": "intake"
+  },
+  "notes": [
+    "Public Devpost page parsed without logging in.",
+    "Overview page also refers to the event as Next Level Product Sprint 2026.",
+    "Theme areas mentioned publicly include AI, product innovation, startup prototypes, social impact solutions, web technologies, and cloud computing."
+  ]
+}

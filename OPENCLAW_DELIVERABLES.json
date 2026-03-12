@@ -1,0 +1,23 @@
+{
+  "status": "ready_for_qa",
+  "repoUrl": "",
+  "demoUrl": "",
+  "screenshots": [],
+  "verification": {
+    "install": "passed",
+    "test": "passed",
+    "build": "passed",
+    "smoke": "passed via static verify checks; interactive local port binding is blocked inside this sandbox"
+  },
+  "submission": {
+    "storyReady": false,
+    "answersReady": false,
+    "draftFilled": false,
+    "submitted": false
+  },
+  "notes": [
+    "SprintPilot is implemented as a local-first static web app under app/ with deployable output in docs/.",
+    "README, verification notes, and project scripts are in place.",
+    "Screenshots, public repo URL, and Devpost submission fields remain untouched by request."
+  ]
+}
