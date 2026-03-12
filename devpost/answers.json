@@ -1,18 +1,26 @@
 {
-  "title": "Next Level Hackathon",
-  "tagline": "Build the next generation of AI, product innovation, and startup-ready solutions.",
+  "title": "SprintPilot",
+  "tagline": "Turn messy meeting notes and goals into a focused weekly sprint with a live board and shareable brief.",
   "track": "",
-  "builtWith": [],
-  "repoUrl": "",
-  "demoUrl": "",
-  "tryItOutUrl": "",
+  "builtWith": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Node.js",
+    "GitHub Pages",
+    "Service Worker",
+    "LocalStorage"
+  ],
+  "repoUrl": "https://github.com/rishabhcli/sprintpilot-next-level-hackathon",
+  "demoUrl": "https://rishabhb.me/sprintpilot-next-level-hackathon/demo/sprintpilot-demo.mp4",
+  "tryItOutUrl": "https://rishabhb.me/sprintpilot-next-level-hackathon/",
   "customAnswers": {
-    "Project Description": "",
-    "Demo Video": "",
-    "Working Prototype": "",
-    "Code Repository": "",
-    "Presentation or Documentation": "",
-    "Team Members": ""
+    "Project Description": "SprintPilot is a local-first productivity app that turns rough notes, launch goals, and team chaos into a structured weekly sprint with urgency-impact scoring, a kanban board, and an exportable sprint brief.",
+    "Demo Video": "https://rishabhb.me/sprintpilot-next-level-hackathon/demo/sprintpilot-demo.mp4",
+    "Working Prototype": "https://rishabhb.me/sprintpilot-next-level-hackathon/",
+    "Code Repository": "https://github.com/rishabhcli/sprintpilot-next-level-hackathon",
+    "Presentation or Documentation": "https://github.com/rishabhcli/sprintpilot-next-level-hackathon#readme",
+    "Team Members": "Rishabh Bansal"
   },
-  "readyToSubmit": false
+  "readyToSubmit": true
 }
